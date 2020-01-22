@@ -56,6 +56,7 @@ def simplify_coords(coords, double epsilon):
     Result: [[0.0, 0.0], [5.0, 4.0], [11.0, 5.5], [27.8, 0.1]]
 
     """
+    print("yessirrr we in this")
     if not len(coords):
         return coords
     cdef double[:,::1] ncoords = np.array(coords, dtype=np.float64)
